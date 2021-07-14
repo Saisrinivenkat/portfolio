@@ -28,30 +28,30 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'oxyfinder.png',
     title: 'OxyFinder',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    info: 'Tech Stack learned through it : Nodejs(express), Nosql(MongoDB),OAuth',
+    info2: 'About this project: Many covid patients have suffered for oxygen cyclinder during covid high spread in india. In order to help those people I developed a web based platform which offers people to put their need and might get help from others.',
+    url: 'https://message-poster.herokuapp.com/home',
+    repo: 'https://github.com/Saisrinivenkat/simple_messager', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'serverless.jpg',
     title: 'Serverless React App',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    info: 'Tech stack Learned: React JS, Azure functions(Serverless)',
+    info2: "About this project: This site is done with the request of my high school buddies. They want to create a site to know the birthdays of peoples who are studied together. So I created the site using React on frontend and for the backend i used MongoDB.",
+    url: 'https://cbiofficial.herokuapp.com/',
+    repo: 'https://github.com/Saisrinivenkat/cbiofficial', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'Face Recognition',
-    info: '',
-    info2: '',
+    img: 'opencv.png',
+    title: 'Invisible cloak',
+    info: 'Tech stack learned: Python, OpenCV',
+    info2: 'About this project: As I already said Im passionate to explore Machine Learning. So this was my first step towards ML. I learnt how to analyze images using OpenCV and learnt some morphological features.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/Saisrinivenkat/Invisible-Cloak', // if no repo, the button will not show up
   },
 ];
 
